@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h2>CALCULATOR</h2>
+        <label for="first-number"></label>
+        <input type="text" id="first-number" title="firstnumber"  onchange="firstnumber(event)" >
+        
+        <label for="second-number"></label>
+        <input type="text" id="second-number" title="secondnumber" onchange="secondnumber(event)">
+        <button onclick="addition()" type="button" id="add">ADDITION</button>
+        <button onclick="substraction()" type="button"id="subs">SUBSTRACTION</button>
+        <button onclick="divison()" type="button" id="divide" >DIVISION</button>
+        <button onclick="multiplication()" type="button" id="mul" >MULTIPLICATION</button>
+        <div>RESULT:<span id="result"></span></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
