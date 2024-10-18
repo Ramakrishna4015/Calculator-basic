@@ -1,14 +1,14 @@
 let number1;
 function firstnumber(event){
 number1=event.target.value;
-console.log(number1);
+// console.log(number1);
 
 
 }
 let number2;
 function secondnumber(event){
     number2 =event.target.value;
-    console.log(number2);
+    // console.log(number2);
     
     
 }
